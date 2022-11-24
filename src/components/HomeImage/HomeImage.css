@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:wght@400;&display=swap');
+
+:root {
+	--primary: #010223;
+	--blue-selected: #313EF7;
+	--white: #FFFFFF;
+}
+
+.home-image {
+	height: 722px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(18, 20, 78, 0.9) 0%, var(--primary) 100%);
+
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.home-image-map-image {
+	position: absolute;
+	top: 88px;
+}
+
+.home-image-aviation-image {
+	position: absolute;
+	top: 120px;
+}
+
+.home-image-aeroplane-image {
+	position: absolute;
+	top: 140px;
+}
+
+.home-image-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	padding-top: 160px;
+}
+
+.home-image-text-bigger {
+	width: 100%;
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 150%;
+
+	text-align: center;
+	letter-spacing: 0.015em;
+	text-transform: capitalize;
+
+	color: var(--white);
+}
+
+.home-image-text-smaller {
+	width: 100%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+
+	text-align: center;
+
+	margin-top: 8px;
+
+	color: rgba(255, 255, 255, 0.7);
+}
+
